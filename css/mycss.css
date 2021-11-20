@@ -34,3 +34,40 @@ a#site-name {
     src: url('/diy-font/candy.ttf');
     font-display: swap;
 }
+
+body,
+html {
+    cursor: url('/pointer/Comix_White_Pointer.cur'),auto !important;
+}
+/* ��ͣͼƬʱ�����ָ�� */
+img {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto !important;
+}
+/* ѡ�����ӱ�ǩʱ�����ָ�� */
+a:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ѡ�������ʱ�����ָ�� */
+input:hover {
+    cursor: url('/pointer/Comix_White_Text.cur'),auto;
+}
+/* ��ͣ��ťʱ�����ָ�� */
+button:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ��ͣ�б���ǩʱ�����ָ�� */
+i:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ��ͣҳ�����ӱ�ǩ������ҳ�Żձ꣩ʱ�����ָ�� */
+#footer-wrap a:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ��ͣҳ��ʱ�����ָ�� */
+#pagination .page-number:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ��ͣ�˵���ʱ�����ָ�� */
+#nav .site-page:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
