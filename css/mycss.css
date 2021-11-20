@@ -1,1 +1,36 @@
-.layout_post>#post{background:rgba(255,255,255,.5)}#aside_content .card-widget,#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{background:rgba(255,255,255,.5)}@font-face{font-family:adomais;src:url(../diy-font/adomais.ttf);font-display:swap}h1#site-title{font-family:adomais!important}span#subtitle{font-family:adomais!important}a#site-name{font-family:adomais!important}
+/* ����ҳ���� */
+.layout_post > #post {
+    /* ���´���͸����Ϊ0.5 ���������޸�*/
+    background: rgba(255,255,255,.5);
+}
+
+/* ����ҳ�汳�� */
+#aside_content .card-widget, #recent-posts > .recent-post-item, .layout_page > div:first-child:not(.recent-posts), .layout_post > #page, .layout_post > #post, .read-mode .layout_post > #post {
+    /* ���´���͸����Ϊ0.5 */
+    background: rgba(255,255,255,.5);
+}
+
+
+/*@font-face {
+    font-family: 'adomais';
+    src: url('../diy-font/adomais.ttf');*/ /* �޸ĳ�������� */
+    /*font-display: swap
+}
+
+h1#site-title {
+    font-family: adomais !important
+}
+
+span#subtitle {
+    font-family: adomais !important
+}
+
+a#site-name {
+    font-family: adomais !important
+}*/
+
+@font-face {
+    font-family: 'candy'; /* �������Զ��弴�� */
+    src: url('/diy_font/candy.ttf'); /* �����ļ�·�� */
+    font-display: swap;
+}
