@@ -1,1 +1,73 @@
-.layout_post>#post{background:rgba(255,255,255,.5)}#aside_content .card-widget,#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{background:rgba(255,255,255,.5)}@font-face{font-family:candy;src:url(/diy-font/candy.ttf);font-display:swap}body,html{cursor:url(/pointer/Comix_White_Pointer.cur),auto!important}img{cursor:url(/pointer/Comix_White_Link.cur),auto!important}a:hover{cursor:url(/pointer/Comix_White_Link.cur),auto}input:hover{cursor:url(/pointer/Comix_White_Text.cur),auto}button:hover{cursor:url(/pointer/Comix_White_Link.cur),auto}i:hover{cursor:url(/pointer/Comix_White_Link.cur),auto}#footer-wrap a:hover{cursor:url(/pointer/Comix_White_Link.cur),auto}#pagination .page-number:hover{cursor:url(/pointer/Comix_White_Link.cur),auto}#nav .site-page:hover{cursor:url(/pointer/Comix_White_Link.cur),auto}
+/* ����ҳ���� */
+.layout_post > #post {
+    /* ���´���͸����Ϊ0.5 ���������޸�*/
+    background: rgba(255,255,255,.5);
+}
+
+/* ����ҳ�汳�� */
+#aside_content .card-widget, #recent-posts > .recent-post-item, .layout_page > div:first-child:not(.recent-posts), .layout_post > #page, .layout_post > #post, .read-mode .layout_post > #post {
+    /* ���´���͸����Ϊ0.5 */
+    background: rgba(255,255,255,.5);
+}
+
+
+/*@font-face {
+    font-family: 'candy';
+    src: url('/diy-font/candy.ttf');
+font-display: swap
+}
+
+h1#site-title {
+    font-family: candy !important
+}
+
+span#subtitle {
+    font-family: candy !important
+}
+
+a#site-name {
+    font-family: candy !important
+}*/
+
+@font-face {
+    font-family: 'candy';  
+    src: url('/diy-font/candy.ttf');
+    font-display: swap;
+}
+
+body,
+html {
+    cursor: url('/pointer/Comix_White_Pointer.cur'),auto !important;
+}
+/* ��ͣͼƬʱ�����ָ�� */
+img {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto !important;
+}
+/* ѡ�����ӱ�ǩʱ�����ָ�� */
+a:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ѡ�������ʱ�����ָ�� */
+input:hover {
+    cursor: url('/pointer/Comix_White_Text.cur'),auto;
+}
+/* ��ͣ��ťʱ�����ָ�� */
+button:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ��ͣ�б���ǩʱ�����ָ�� */
+i:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ��ͣҳ�����ӱ�ǩ������ҳ�Żձ꣩ʱ�����ָ�� */
+#footer-wrap a:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ��ͣҳ��ʱ�����ָ�� */
+#pagination .page-number:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
+/* ��ͣ�˵���ʱ�����ָ�� */
+#nav .site-page:hover {
+    cursor: url('/pointer/Comix_White_Link.cur'),auto;
+}
