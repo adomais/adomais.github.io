@@ -71,3 +71,26 @@ i:hover {
 #nav .site-page:hover {
     cursor: url('/pointer/Comix_White_Link.cur'),auto;
 }
+
+/* ҳ��͸�� */
+#footer {
+    background: transparent !important;
+}
+/* ͷͼ͸�� */
+#page-header {
+    background: transparent !important;
+}
+    /*top-img��ɫ͸������Ч���Ƴ���������ӣ�������ִ������ȫһͼ�����߱���ͼ�Ա�ɫ���� */
+    #page-header.post-bg:before {
+        background-color: transparent !important;
+    }
+/*ҹ��ģʽα�����ֲ�͸��*/
+[data-theme="dark"]
+#footer::before {
+    background: transparent !important;
+}
+
+[data-theme="dark"]
+#page-header::before {
+    background: transparent !important;
+}
