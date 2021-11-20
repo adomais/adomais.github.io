@@ -11,26 +11,26 @@
 }
 
 
-/*@font-face {
-    font-family: 'adomais';
-    src: url('../diy-font/adomais.ttf');*/ /* �޸ĳ�������� */
-    /*font-display: swap
+@font-face {
+    font-family: 'candy';
+    src: url('../diy_font/candy.ttf');
+font-display: swap
 }
 
 h1#site-title {
-    font-family: adomais !important
+    font-family: candy !important
 }
 
 span#subtitle {
-    font-family: adomais !important
+    font-family: candy !important
 }
 
 a#site-name {
-    font-family: adomais !important
-}*/
-
-@font-face {
-    font-family: 'candy'; /* �������Զ��弴�� */
-    src: url('/diy_font/candy.ttf'); /* �����ļ�·�� */
-    font-display: swap;
+    font-family: candy !important
 }
+
+/*@font-face {
+    font-family: 'candy';*/ /* �������Զ��弴�� */
+    /*src: url('/diy_font/candy.ttf');*/ /* �����ļ�·�� */
+    /*font-display: swap;
+}*/
