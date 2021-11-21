@@ -1,33 +1,16 @@
 /* ����ҳ���� */
-.layout_post > #post {
+/*.layout_post > #post {*/
     /* ���´���͸����Ϊ0.5 ���������޸�*/
-    background: rgba(255,255,255,.5);
-}
+    /*background: rgba(255,255,255,.5);
+}*/
 
 /* ����ҳ�汳�� */
-#aside_content .card-widget, #recent-posts > .recent-post-item, .layout_page > div:first-child:not(.recent-posts), .layout_post > #page, .layout_post > #post, .read-mode .layout_post > #post {
+/*#aside_content .card-widget, #recent-posts > .recent-post-item, .layout_page > div:first-child:not(.recent-posts), .layout_post > #page, .layout_post > #post, .read-mode .layout_post > #post {*/
     /* ���´���͸����Ϊ0.5 */
-    background: rgba(255,255,255,.5);
-}
-
-
-/*@font-face {
-    font-family: 'candy';
-    src: url('/diy-font/candy.ttf');
-font-display: swap
-}
-
-h1#site-title {
-    font-family: candy !important
-}
-
-span#subtitle {
-    font-family: candy !important
-}
-
-a#site-name {
-    font-family: candy !important
+    /*background: rgba(255,255,255,.5);
 }*/
+
+
 
 @font-face {
     font-family: 'candy';  
@@ -93,4 +76,34 @@ i:hover {
 [data-theme="dark"]
 #page-header::before {
     background: transparent !important;
+}
+
+
+/* ��ҳ���¿�Ƭ */
+#recent-posts > .recent-post-item {
+    background: rgba(255, 255, 255, 0.9);
+}
+/* ��ҳ������Ƭ */
+.card-widget {
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+/* ����ҳ�����ı��� */
+div#post {
+    background: rgba(255, 255, 255, 0.9);
+}
+/* ��ҳҳ�� */
+div#page {
+    background: rgba(255, 255, 255, 0.9);
+}
+/* �鵵ҳ�� */
+div#archive {
+    background: rgba(255, 255, 255, 0.9);
+}
+/* ��ǩҳ�� */
+div#tag {
+    background: rgba(255, 255, 255, 0.9);
+}
+/* ����ҳ�� */
+div#category {
+    background: rgba(255, 255, 255, 0.9);
 }
