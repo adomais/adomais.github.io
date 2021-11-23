@@ -55,6 +55,8 @@ i:hover {
     cursor: url('/pointer/Comix_White_Link.cur'),auto;
 }
 
+
+
 /* ҳ��͸�� */
 #footer {
     background: transparent !important;
@@ -79,31 +81,62 @@ i:hover {
 }
 
 
+
+
 /* ��ҳ���¿�Ƭ */
 #recent-posts > .recent-post-item {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 /* ��ҳ������Ƭ */
 .card-widget {
-    background: rgba(255, 255, 255, 0.9) !important;
+    background: rgba(255, 255, 255, 0.7) !important;
 }
 /* ����ҳ�����ı��� */
 div#post {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 /* ��ҳҳ�� */
 div#page {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 /* �鵵ҳ�� */
 div#archive {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 /* ��ǩҳ�� */
 div#tag {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 /* ����ҳ�� */
 div#category {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
+
+
+
+/*10sΪ���ض�����ʱ�䣬1Ϊ���ض����Ĵ�����ease-in-outΪ����Ч��*/
+/*#page-header,
+#web_bg {
+    -webkit-animation: imgblur 10s 1 ease-in-out;
+    animation: imgblur 10s 1 ease-in-out;
+}
+
+@keyframes imgblur {
+    0% {
+        filter: blur(5px);
+    }
+
+    100% {
+        filter: blur(0px);
+    }
+}*/
+/*����ʹ��-webkit�ں˵������ */
+/*@-webkit-keyframes imgblur {
+    0% {
+        -webkit-filter: blur(5px);
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+    }
+}*/
