@@ -1,9 +1,3 @@
-
-var arr = document.getElementsByClassName('article-title');
-for (var i = 0; i < arr.length; i++) {
-	arr[i].classList.add('wowpanels');
-}
-
 var ANGLE = 45; //���Ƹ����Ƕȣ���ֵԽ�󣬸�������Խ��
 
 var panel = document.getElementsByClassName('wowpanels');
