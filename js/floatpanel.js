@@ -22,5 +22,3 @@ function floatable(content) {
 								   rotateY(${y}deg)`;
 	});
 }
-
-
