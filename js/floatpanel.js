@@ -1,20 +1,9 @@
-var arr = document.getElementsByClassName('menus_item');
-for (var i = 0; i < arr.length; i++) {
-	arr[i].classList.add('wowpanels');
-}
-var arr = document.getElementsByClassName('card-tag-cloud');
-for (var i = 0; i < arr.length; i++) {
-	arr[i].classList.add('wowpanels');
-}
-var arr = document.getElementsByClassName('title');
-for (var i = 0; i < arr.length; i++) {
-	arr[i].classList.add('wowpanels');
-}
+
 var arr = document.getElementsByClassName('article-title');
 for (var i = 0; i < arr.length; i++) {
 	arr[i].classList.add('wowpanels');
 }
-// ԭ��������
+
 var ANGLE = 45; //���Ƹ����Ƕȣ���ֵԽ�󣬸�������Խ��
 
 var panel = document.getElementsByClassName('wowpanels');
@@ -39,3 +28,5 @@ function floatable(content) {
 								   rotateY(${y}deg)`;
 	});
 }
+
+

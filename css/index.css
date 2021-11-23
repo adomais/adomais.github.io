@@ -3259,19 +3259,19 @@ li.categoryBar-list-item:nth-child(1) {
   background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category1.webp');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category2.webp');
+  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category4.webp');
 }
 li.categoryBar-list-item:nth-child(3) {
   background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category3.webp');
 }
 li.categoryBar-list-item:nth-child(4) {
-  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category4.webp');
+  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category2.webp');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '操作指南' !important;
+  content: '指南！指南！' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '我也不知道该怎么描述' !important;
+  content: '杂！杂！' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
   content: '算法！算法！' !important;
