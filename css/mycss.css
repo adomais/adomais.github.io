@@ -128,7 +128,7 @@ div#category {
 
 /* ��ҳ���¿�Ƭ */
 #recent-posts > .recent-post-item {
-    background: rgba(255, 255, 255, 0.7);
+    background: transparent;
 }
 /* ��ҳ������Ƭ */
 .card-widget {
@@ -136,7 +136,7 @@ div#category {
 }
 /* ����ҳ�����ı��� */
 div#post {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.7);
 }
 /* ��ҳҳ�� */
 div#page {
