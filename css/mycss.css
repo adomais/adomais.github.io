@@ -66,9 +66,9 @@ i:hover {
     background: transparent !important;
 }
     /*top-img��ɫ͸������Ч���Ƴ���������ӣ�������ִ������ȫһͼ�����߱���ͼ�Ա�ɫ���� */
-    #page-header.post-bg:before {
-        background-color: transparent !important;
-    }
+#page-header.post-bg:before {
+    background-color: transparent !important;
+}
 /*ҹ��ģʽα�����ֲ�͸��*/
 [data-theme="dark"]
 #footer::before {
@@ -123,12 +123,17 @@ div#category {
     background: rgba(0, 0, 0, 0.5) !important;
 }
 
+[data-theme="dark"]
+#recent-posts.recent-posts {
+    background: transparent !important;
+}
+
 
 
 
 /* ��ҳ���¿�Ƭ */
 #recent-posts > .recent-post-item {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.7);
 }
 /* ��ҳ������Ƭ */
 .card-widget {
@@ -155,6 +160,9 @@ div#category {
     background: rgba(255, 255, 255, 0.7);
 }
 
+div#recent-posts.recent-posts {
+    background: transparent;
+}
 
 
 /*10sΪ���ض�����ʱ�䣬1Ϊ���ض����Ĵ�����ease-in-outΪ����Ч��*/
