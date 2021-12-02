@@ -3271,7 +3271,7 @@ li.categoryBar-list-item:nth-child(1)>span::after {
   content: '指南！指南！' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '杂！杂！' !important;
+  content: '阅读！阅读！' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
   content: '算法！算法！' !important;
