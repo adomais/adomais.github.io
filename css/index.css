@@ -3336,24 +3336,30 @@ li.categoryBar-list-item:nth-child(1) {
   background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category1.webp');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category4.webp');
+  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category2.webp');
 }
 li.categoryBar-list-item:nth-child(3) {
   background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category3.webp');
 }
 li.categoryBar-list-item:nth-child(4) {
-  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category2.webp');
+  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category4.webp');
+}
+li.categoryBar-list-item:nth-child(5) {
+  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category5.webp');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '指南！指南！' !important;
+  content: 'c++！c++！' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '算法！算法！' !important;
+  content: '指南！指南！' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
-  content: '阅读！阅读！' !important;
+  content: '算法！算法！' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
+  content: '常识！常识！' !important;
+}
+li.categoryBar-list-item:nth-child(5)>span::after {
   content: '题解！题解！' !important;
 }
 li.categoryBar-list-item {
