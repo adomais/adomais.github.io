@@ -3347,19 +3347,25 @@ li.categoryBar-list-item:nth-child(4) {
 li.categoryBar-list-item:nth-child(5) {
   background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category5.webp');
 }
+li.categoryBar-list-item:nth-child(6) {
+  background: url('https://cdn.jsdelivr.net/gh/adomais/picture/category6.webp');
+}
 li.categoryBar-list-item:nth-child(1)>span::after {
   content: 'c++！c++！' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '指南！指南！' !important;
+  content: '小结！小结！' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
-  content: '算法！算法！' !important;
+  content: '指南！指南！' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
-  content: '常识！常识！' !important;
+  content: '算法！算法！' !important;
 }
 li.categoryBar-list-item:nth-child(5)>span::after {
+  content: '常识！常识！' !important;
+}
+li.categoryBar-list-item:nth-child(6)>span::after {
   content: '题解！题解！' !important;
 }
 li.categoryBar-list-item {
